@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+
+    tools:context=".MainActivity">
+
+
+
+
+
+
+    <TextView
+        android:textSize="28sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        android:text="Jiva Sciences"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:id="@+id/item1"
+        android:background="@drawable/bg_item"
+        android:layout_width="match_parent"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="30dp"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/aboutbg"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:text="About us"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#4a4a4a"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item2"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_item"
+        android:layout_width="match_parent"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/testbg"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:text="Test sample"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#4a4a4a"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/item3"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_item"
+        android:layout_width="match_parent"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/databasebg"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:text="Database"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#4a4a4a"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btncontinue"
+        android:background="@android:color/holo_blue_light"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="90dp"
+        android:textColor="@android:color/background_light"
+        android:text="Continue"
+        android:textSize="28dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="60dp" />
+    <Button
+        android:id="@+id/btncancel"
+        android:background="@android:color/holo_red_light"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="90dp"
+        android:textSize="28dp"
+        android:text="Cancel"
+        android:textColor="@android:color/background_light"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="60dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
